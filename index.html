@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator 1.0</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="./style.css">
+  <link href="./images/favicon.ico" rel="icon">
+</head>
+<body>
+  <h1>Calculator (Version 1.0)</h1>
+  <main>
+    <div id="container">
+      <form>
+        <input type="text" disabled>
+      </form>
+      <table>
+        <tr>
+          <td><button id="clear">AC</button></td>
+          <td><button value="/" class="operator">/</button></td>
+          <td><button value="*" class="operator">*</button></td>
+          <td><button value="-" class="operator">-</button></td>
+        </tr>
+        <tr>
+          <td><button value="7" class="number">7</button></td>
+          <td><button value="8" class="number">8</button></td>
+          <td><button value="9" class="number">9</button></td>
+          <td rowspan="3"><button value="+" id="add" class="operator">+</button></td>
+        </tr>
+        <tr>
+          <td><button value="4" class="number">4</button></td>
+          <td><button value="5" class="number">5</button></td>
+          <td><button value="6" class="number">6</button></td>
+        </tr>
+        <tr>
+          <td><button value="1" class="number">1</button></td>
+          <td><button value="2" class="number">2</button></td>
+          <td><button value="3" class="number">3</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button value="0" id="zero" class="number">0</button></td>
+          <td colspan="2"><button value="=" id="equal">=</button></td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  <p>A project by <img src="images/23px-Flag_of_Canada_(Pantone).svg.webp"> <a href="https://github.com/rajdeepdev10" target="_blank">Rajdeep Dev</a></p>
+<script src="./script.js">
+</script>
+</body>
+</html>
